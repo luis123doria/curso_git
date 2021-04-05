@@ -16,8 +16,13 @@
 	margin: 50px;
 }
 
+.modales {
+	text-align: center;
+}
+
 .modal {
 	margin: 20px;
+	display: inline-flex;
 }
 
 .card-modal {
