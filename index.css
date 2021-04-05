@@ -1,3 +1,7 @@
+body {
+	background-color: lightgray;
+}
+
 .home, .contact, .buy {
 	width: 100%;
 	height: 100px;
