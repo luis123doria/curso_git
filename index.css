@@ -1,5 +1,6 @@
 body {
 	background-color: lightgray;
+	border: 10px solid #192b36;
 }
 
 img {
@@ -55,4 +56,18 @@ img {
 	color: 
 	font-size: 16px;
 	font-weight: lighter;
+}
+
+@media screen and (max-width: 700px) {
+	.home, .contact, .buy {
+		display: block;
+		width: 50%;
+	}
+	.header {
+		align-items: center;
+		justify-content: center;
+		margin-left: auto;
+		margin-right: auto;
+		width: 75%;
+	}
 }
